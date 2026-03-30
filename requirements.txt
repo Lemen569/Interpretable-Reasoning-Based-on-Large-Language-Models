@@ -1,0 +1,40 @@
+# Core ML & Deep Learning
+torch>=2.0.0
+torchvision>=0.15.0
+torchaudio>=2.0.0
+
+# Graph Neural Networks
+dgl>=2.0.0
+dgl-cuda118>=2.0.0
+
+# LLM & Transformer
+transformers>=4.35.0
+accelerate>=0.24.0
+bitsandbytes>=0.41.0
+sentencepiece>=0.1.99
+
+# Scientific Computing
+numpy>=1.24.0
+scipy>=1.11.0
+pandas>=2.0.0
+
+# Utilities
+tqdm>=4.66.0
+psutil>=5.9.5
+python-dotenv>=1.0.0
+json5>=0.9.14
+
+# Visualization
+matplotlib>=3.7.0
+seaborn>=0.12.0
+
+# Logging & IO
+loguru>=0.7.0
+pickleshare>=0.7.5
+
+# ------------------------------------------------------------------------------
+# Medical Dataset (MIMIC-III) for Healthcare TKG Experiments
+# Official access and responsible use policy:
+# https://physionet.org/news/post/gpt-responsible-use
+# ------------------------------------------------------------------------------
+physionet>=2.1.0
