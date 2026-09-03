@@ -1,0 +1,24 @@
+# Python caches
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Local environments and caches
+.venv/
+venv/
+.cache/
+.hf_cache/
+.mplconfig/
+
+# Generated artifacts
+logs/
+results/
+checkpoints/
+data/processed/
+*.pt
+*.pth
+
+# OS/editor files
+.DS_Store
+Thumbs.db
+.vscode/

@@ -1,0 +1,13 @@
+# Core runtime. Select the PyTorch wheel appropriate for the local CUDA/CPU
+# environment before installing this file.
+torch==2.2.1
+dgl==2.2.1
+numpy==1.26.4
+tqdm>=4.66.0
+
+# Optional evaluation and experiment utilities.
+scipy==1.13.1
+pandas>=2.0.0
+psutil>=5.9.5
+rouge-score>=0.1.2
+bert-score>=0.3.13

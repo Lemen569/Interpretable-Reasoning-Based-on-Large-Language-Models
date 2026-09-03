@@ -1,0 +1,10 @@
+# Optional dependencies for the paper's Llama-2-13B inference configuration.
+transformers==4.46.3
+accelerate>=0.24.0
+sentencepiece>=0.1.99
+# bitsandbytes is platform/CUDA-specific. Install a compatible build only when
+# 4-bit quantized loading is available on the target machine.
+bitsandbytes==0.43.3
+# These pins keep the Transformers stack compatible with PyTorch 2.2.x.
+huggingface-hub==0.26.2
+tokenizers==0.20.3
