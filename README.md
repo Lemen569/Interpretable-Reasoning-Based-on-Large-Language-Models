@@ -48,13 +48,13 @@ dataset and stores the generated vocabulary, inverse-relation map, cumulative
 training-history graphs, and split files under `data/processed/<dataset>/`.
 The scripts require Python 3.9 or newer.
 
-On the supplied Windows environment, activate the short-path virtual
-environment before running:
+Create and activate a local virtual environment before running:
 
 ```powershell
-& D:\研究生\KBS\v\Scripts\Activate.ps1
+python -m venv .venv
+.\.venv\Scripts\Activate.ps1
+pip install -r requirements.txt
 $env:DGLBACKEND = "pytorch"
-$env:HF_HOME = "$PWD\.hf_cache"
 ```
 For a local smoke test without downloading Llama weights, use the deterministic
 mock LLM fallback:
